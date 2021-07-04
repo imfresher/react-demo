@@ -1,3 +1,32 @@
+# Start
+
+```sh
+yarn add husky lint-staged prettier
+npx -p @storybook/cli sb init
+
+# Analyzing the Bundle Size
+yarn add source-map-explorer
+
+# Sass
+yarn add node-sass
+
+# React Bootstrap
+yarn add react-bootstrap bootstrap@4.6.0
+
+# Fetching data
+yarn add axios lodash
+
+# 
+yarn add react-router-dom react-helmet react-intl redux redux-saga react-redux
+```
+
+```sh
+  "scripts": {
++    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+```
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
