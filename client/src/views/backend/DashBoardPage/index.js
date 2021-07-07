@@ -1,9 +1,11 @@
 import React from 'react';
 
-export function DashBoardPage(props) {
+function DashBoardPage(props) {
   return (
     <div className="DashBoardPage">
       DashBoard
     </div>
   )
 }
+
+export default DashBoardPage;

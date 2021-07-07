@@ -1,6 +1,25 @@
 # Start
 
 ```sh
+docker-compose up -d
+docker-compose exec app bash
+cd client/
+```
+
+```sh
+# Install firebase emulators
+npm install -g firebase-tools
+#firebase deploy
+mkdir emulators
+cd emulators
+firebase login
+firebase init
+
+# Run emulator
+firebase emulators:start
+```
+
+```sh
 yarn add husky lint-staged prettier
 npx -p @storybook/cli sb init
 
@@ -18,6 +37,9 @@ yarn add axios lodash
 
 # 
 yarn add react-router-dom react-helmet react-intl redux redux-saga react-redux
+
+#
+yarn add firebase
 ```
 
 ```sh

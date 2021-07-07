@@ -1,9 +1,11 @@
 import React from 'react';
 
-export function AdminUserPage(props) {
+function AdminUserPage(props) {
   return (
     <div class="AdminUserPage">
       Admin User Page.
     </div>
   );
 }
+
+export default AdminUserPage;
