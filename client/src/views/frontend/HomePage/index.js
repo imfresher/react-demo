@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
-import FrontendLayout from 'layouts/FrontendLayout';
+import FrontendLayout from '../../layouts/FrontendLayout';
 
 function HomePage(props) {
   return (

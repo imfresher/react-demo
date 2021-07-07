@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
-import DashBoardPage from '../pages/backend/DashBoardPage';
-import AdminUserPage from '../pages/backend/AdminUserPage';
+import DashBoardPage from '../views/backend/DashBoardPage';
+import AdminUserPage from '../views/backend/AdminUserPage';
 
 class BackendRoute extends Component {
   render() {

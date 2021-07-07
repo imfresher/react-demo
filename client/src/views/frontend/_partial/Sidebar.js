@@ -1,6 +1,6 @@
 import React from 'react';
 
-function SideBar(props) {
+function Sidebar(props) {
   return (
     <aside id="SideBar" className="AppSideBar">
       <ul className="Navigation__ul">
