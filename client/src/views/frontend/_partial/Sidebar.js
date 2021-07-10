@@ -2,7 +2,7 @@ import React from 'react';
 
 function Sidebar(props) {
   return (
-    <aside id="SideBar" className="AppSideBar">
+    <aside id="Sidebar" className="AppSidebar">
       <ul className="Navigation__ul">
         <li className="nav__li">
           <a className="nav__item" href={'/'}>Item 1</a>
@@ -23,4 +23,4 @@ function Sidebar(props) {
   );
 }
 
-export default SideBar;
+export default Sidebar;
