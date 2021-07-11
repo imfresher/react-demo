@@ -10,15 +10,17 @@ import "firebase/analytics";
 import "firebase/auth";
 import "firebase/firestore";
 
+import config from 'config';
+
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyBMzVF6NZvB2MpiMXG2PazGhP1Dnl-eReI",
-    authDomain: "cf-watch.firebaseapp.com",
-    projectId: "cf-watch",
-    storageBucket: "cf-watch.appspot.com",
-    messagingSenderId: "1086127621513",
-    appId: "1:1086127621513:web:bfa5a6baecfc0689030d58",
-    measurementId: "G-T2P5JRWSG8"
+    apiKey: config.firebase.apiKey,
+    authDomain: config.firebase.authDomain,
+    projectId: config.firebase.projectId,
+    storageBucket: config.firebase.storageBucket,
+    messagingSenderId: config.firebase.messagingSenderId,
+    appId: config.firebase.appId,
+    measurementId: config.firebase.measurementId
 };
 
 // Initialize Firebase

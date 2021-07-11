@@ -36,7 +36,7 @@ yarn add react-bootstrap bootstrap@4.6.0
 yarn add axios lodash
 
 # 
-yarn add react-router-dom react-helmet react-intl redux redux-saga react-redux
+yarn add dotenv country-flag-icons video.js react-router-dom react-helmet react-intl redux redux-saga react-redux
 
 #
 yarn add firebase
