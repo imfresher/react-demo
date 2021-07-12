@@ -9,7 +9,7 @@ class FrontendRoute extends Component {
     return (
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route path="/watch" component={WatchPage} />
+        <Route path="/watch/:id" component={WatchPage} />
 
         {/* <Route component={Error404} /> */}
       </Switch>

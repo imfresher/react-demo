@@ -3,6 +3,7 @@
   "common.views": "ビュー",
   "common.time": "時間",
   "common.times": "タイムズ",
+  "common.ago": "前",
   "HomePage.title": "ホームページ",
   "WatchPage.title": "ウォッチページ",
   "doc.Lifecycle.react_version":  "Reactバージョン",

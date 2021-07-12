@@ -3,6 +3,7 @@
   "common.views": "lượt xem",
   "common.time": "thời gian",
   "common.times": "lần",
+  "common.ago": "trước",
   "HomePage.title": "Trang chủ",
   "WatchPage.title": "Xem video",
   "doc.Lifecycle.react_version": "Phiên bản React",

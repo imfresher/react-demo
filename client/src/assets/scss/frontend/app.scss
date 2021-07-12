@@ -12,7 +12,7 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
   color: #212b36;
   background: #f7f8fc;
   -webkit-font-smoothing: antialiased;
@@ -72,6 +72,10 @@ img {
     padding: 2px 6px;
     font-weight: 500;
     border-radius: 0.1rem;
+  }
+
+  .Video__author {
+    font-weight: 500;
   }
 }
 
