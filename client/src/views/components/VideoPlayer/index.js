@@ -1,13 +1,18 @@
-import React from 'react';
+import React, { Component } from 'react';
 import videojs from 'video.js';
 import 'video.js/dist/video-js.css';
+import './index.scss';
 
-export default class VideoPlayer extends React.Component {
+export default class VideoPlayer extends Component {
   componentDidMount() {
     // instantiate Video.js
-    this.player = videojs(this.videoNode, this.props, function onPlayerReady() {
-      console.log('onPlayerReady', this);
-    });
+    this.player = videojs(
+        this.videoNode,
+        this.props,
+        function onPlayerReady() {
+            console.log('onPlayerReady', this);
+        }
+    );
   }
 
   // destroy player on unmount
@@ -23,8 +28,8 @@ export default class VideoPlayer extends React.Component {
   render() {
     return (
       <div>
-        <div data-vjs-player style={{width: "100%"}}>
-          <video ref={ node => this.videoNode = node } className="video-js"></video>
+        <div data-vjs-player>
+          <video ref={ node => this.videoNode = node } className="video-js vjs-theme-cf"></video>
         </div>
       </div>
     );

@@ -1,21 +1,21 @@
 import React from  'react';
 import { IntlProvider } from 'react-intl';
 import config from 'config';
-import { LanguageContext } from 'views/context/language-context';
+import { LanguageContext } from 'views/context';
 
 const defaultLocale = config.locale;
 
 function LanguageProvider(props) {
   const [locale, setLocale] = React.useState(defaultLocale);
 
-  function handleChangeLocale(value) {
+  function handleLocaleChange(value) {
     setLocale(value);
   };
 
   return (
     <LanguageContext.Provider value={{
       locale,
-      onChangeLocale: handleChangeLocale
+      onChangeLocale: handleLocaleChange
     }}>
       <IntlProvider
         locale={locale}
