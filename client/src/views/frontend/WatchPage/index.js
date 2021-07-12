@@ -11,6 +11,34 @@ function WatchPage(props) {
   const videoJsOptions = {
     autoplay: true,
     controls: true,
+    fluid: true,
+    controlBar: {
+      volumePanel: { inline: false },
+      remainingTimeDisplay: false,
+      // subsCapsButton: true,
+      // ResolutionButton: true,
+      children: [
+        "playToggle",
+        "volumePanel",
+        "currentTimeDisplay",
+        "timeDivider",
+        "durationDisplay",
+        "progressControl",
+        "liveDisplay",
+        "remainingTimeDisplay",
+        "customControlSpacer",
+        "playbackRateMenuButton",
+        "chaptersButton",
+        "descriptionsButton",
+        "subsCapsButton",
+        "audioTrackButton",
+        "chromeCastButton",
+        "ResolutionButton",
+        "settingMenuButton",
+        "pictureInPictureToggle",
+        "fullscreenToggle"
+      ]
+    },
     sources: [
       {
         src: '//vjs.zencdn.net/v/oceans.mp4',

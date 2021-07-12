@@ -1,6 +1,6 @@
 import React from 'react';
 import getUnicodeFlagIcon from 'country-flag-icons/unicode';
-import { LanguageContext } from 'views/context/language-context';
+import { LanguageContext } from 'views/context';
 
 export default function LanguageSwitcher({ id, ...props }) {
   const options =  [
