@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
+// import { Button } from 'react-bootstrap';
 import Header from '../frontend/_partial/Header';
 import Footer from '../frontend/_partial/Footer';
 // import Sidebar from '../frontend/_partial/Sidebar';
@@ -13,7 +13,7 @@ class FrontendLayout extends React.Component {
         {/* <Sidebar /> */}
         <div className="AppContainer">
           <Header />
-          <div className="px-5">
+          {/* <div className="px-5">
             <div className="tags container-fluid py-3">
               <Button variant="success" size="sm">Awesome</Button>{' '}
               <Button variant="success" size="sm">Trending Music</Button>{' '}
@@ -46,7 +46,7 @@ class FrontendLayout extends React.Component {
               <Button variant="success" size="sm">reactjs</Button>{' '}
               <Button variant="success" size="sm">reactjs</Button>{' '}
             </div>
-          </div>
+          </div> */}
           <main id="AppMain" className="AppMain">
             <div className="AppContent py-5">
               { children }

@@ -10,7 +10,7 @@ export default class VideoPlayer extends Component {
         this.videoNode,
         this.props,
         function onPlayerReady() {
-            console.log('onPlayerReady', this);
+          console.log('onPlayerReady', this);
         }
     );
   }
